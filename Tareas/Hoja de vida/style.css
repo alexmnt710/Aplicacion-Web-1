@@ -1,0 +1,100 @@
+/* Resetear márgenes y relleno predeterminados */
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+}
+
+/* Estilo para todo el cuerpo de la página */
+body {
+    margin: 20px;
+    background-color: #fff0e6; /* Color crema (puedes ajustar el valor según tus preferencias) */
+}
+
+/* Contenedor principal con diseño de cuadrícula */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: left;
+    margin: auto;
+}
+
+.datos-foto {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 50px; /* Separación de 50px entre Datos Personales y Foto */
+}
+
+.datos-personales{
+    margin-right: 500px;
+}
+
+/* Estilo para la foto */
+.foto-centrada img {
+    max-width: 100px; /* Tamaño máximo de la foto (ajústalo según tus necesidades) */
+    height: auto; /* Mantener la proporción de aspecto */
+    display: block; /* Eliminar espacios en blanco debajo de la imagen */
+    margin: 0 auto; /* Centrar horizontalmente la imagen */
+    margin-top: 20px; /* Agregar margen superior para alejarlo del `div` de datos personales */
+}
+
+
+/* Estilo para las secciones Estudios Realizados y Experiencia Laboral */
+.estudios-experiencia {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las secciones Capacitaciones y Referencias */
+.capacitaciones,
+.referencias {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los títulos */
+h1, h2 {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+/* Estilos para la tabla de referencias */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para las filas impares de la tabla */
+table tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Cambia el color de fondo según tus preferencias */
+}
+/* ... (otros estilos) ... */
+
+/* Estilo para centrar los divs de "Estudios Realizados" y "Experiencia Laboral" */
+.estudios-realizados, .experiencia-laboral {
+    margin: 0 auto;
+}
+
+/* ... (otros estilos) ... */
+
+
+
