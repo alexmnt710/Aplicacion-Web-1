@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Clientes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <div id="registro-container">
+        <h1>Registro de Clientes</h1>
+        <form id="registro-form">
+            <!-- Campos de entrada aquí -->
+            <div class="form-group">
+                <label for="nombre_apellidos">Nombre y Apellidos:</label>
+                <input type="text" id="nombre_apellidos" class="form-control" placeholder="Escribe tu Nombre y Apellidos" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" class="form-control" placeholder="Escribe tu Correo Electrónico" required>
+            </div>
+
+            <div class="form-group">
+                <label for="numero_celular">Número de Celular:</label>
+                <input type="tel" id="numero_celular" class="form-control" placeholder="Escribe tu Número de Celular" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" class="form-control" placeholder="Selecciona tu Fecha de Nacimiento" required>
+            </div>
+
+            <button type="button" id="registrarse-btn" class="btn btn-primary" disabled>Registrarse</button>
+        </form>
+    </div>
+    <div id="registro-exito" class="alert alert-success" style="display: none;">
+        Te has registrado con éxito.
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        
+    </footer>
+</body>
+</html>
+
+
+
+
+
+

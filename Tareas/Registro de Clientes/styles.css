@@ -1,0 +1,70 @@
+/* Estilos para el cuerpo de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #10171f !important;
+    
+    
+}
+
+/* Estilos para el contenedor del formulario */
+#registro-container {
+    text-align: center;
+    background-color: #151f2b ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Ancho del div ajustado a 300px */
+    max-width: 100%; /* Máximo ancho del div */
+}
+
+/* Estilos para el título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:rgb(52, 143, 213);
+}
+
+/* Estilos para los campos de entrada y etiquetas */
+label {
+    color:white;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 20px); /* Restar 10px para evitar que se corten */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+header {
+    background-color: #2d3943; /* Cambia el color de fondo del encabezado */
+    color: #fff; /* Cambia el color del texto del encabezado */
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #2d3943; /* Cambia el color de fondo del pie de página */
+    color: #fff; /* Cambia el color del texto del pie de página */
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
